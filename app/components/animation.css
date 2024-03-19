@@ -1,0 +1,90 @@
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@keyframes resize {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.diff-resizer {
+    width: 100%;
+    height: 2px;
+    /* Set height to a non-zero value */
+    position: absolute;
+    /* Set position to absolute */
+    bottom: 0;
+    /* Align to the bottom of the parent element */
+    left: 0;
+    /* Align to the left of the parent element */
+    background-color: red;
+    /* Set a background color to visualize the element */
+    animation: resize 1s ease-in-out infinite alternate;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(2.1);
+    }
+}
+
+.phone-img {
+    animation: zoomIn 1s alternate infinite;
+}
+
+
+
+.worldweb-phone {
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--rounded-box, 1rem);
+    --tw-bg-opacity: 1;
+    /* Remove the previous background-color and replace it with the background-image */
+    /* background-color: var(--fallback-b3, oklch(var(--b3)/var(--tw-bg-opacity))); */
+    background-image: url('insta.jpg');
+    /* Set background-size to cover to ensure the image covers the container */
+    background-size: cover;
+    /* Set background-repeat to no-repeat to prevent the image from repeating */
+    background-repeat: no-repeat;
+    /* Set background-position to center to align the image */
+    background-position: center;
+    --tw-text-opacity: 1;
+    color: var(--fallback-bc, oklch(var(--bc)/var(--tw-text-opacity)));
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+        0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.bg-gradient-to-br {
+    background: linear-gradient(to bottom right, black, white);
+}
+
+.bg-indigo-300 {
+    background-color: white;
+}
+
+.bg-violet-300 {
+    background-color: black;
+}
+
+.text-slate-900 {
+    color: white;
+}
+
+.grid-cols-2>* {
+    color: white;
+}
