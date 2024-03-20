@@ -1,16 +1,7 @@
 "use client";
 import React from "react";
-import { HeroParallax } from "../components/ui/hero-parallax";
-
-const lastProjects = () =>{
-  return (    <>
-     
-      <HeroParallax products={products} />
-  
-    </>)
-
-}
-export const products = [
+import HeroParallax  from "../components/ui/hero-parallax";
+const products = [
   {
     title: "Moonbeam",
     link: "https://kabylospizza.com/",
@@ -92,5 +83,14 @@ export const products = [
 
 ];
 
+const lastProjects = () =>{
+  return (    <>
+     
+      <HeroParallax products={products} />
+  
+    </>)
+
+}
+ 
 
 export default lastProjects;

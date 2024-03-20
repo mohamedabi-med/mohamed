@@ -25,7 +25,7 @@ import { IconCaretLeftFilled } from "@tabler/icons-react";
 import { IconCaretDownFilled } from "@tabler/icons-react";
 import Image from "next/image";
 
-const MacbookScroll = ({
+ const MacbookScroll = ({
   src,
   showGradient,
   title,

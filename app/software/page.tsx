@@ -1,11 +1,11 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { InfiniteMovingCards } from "../components/ui/infinite-moving-cards";
+import  InfiniteMovingCards from "../components/ui/infinite-moving-cards";
 import Image from 'next/image';
 import { EvervaultCard, Icon } from "../components/ui/evervault-card";
 import Link from "next/link";
-export function InfiniteMovingCardsDemo() {
+ const  InfiniteMovingCardsDemo =()=> {
   return (
     <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       <InfiniteMovingCards

@@ -1,9 +1,9 @@
 "use client"
 import React from "react";
-import MacbookScroll  from "../components/ui/macbook-scroll";
+import  MacbookScroll  from "../components/ui/macbook-scroll";
 import Link from "next/link";
 
-export function MacbookScrollDemo() {
+const  MacbookScrollDemo = () =>{
   return (
     <div className="overflow-hidden dark:bg-[#0B0B0F] bg-white w-full">
       <MacbookScroll
@@ -23,6 +23,7 @@ export function MacbookScrollDemo() {
     </div>
   );
 }
+
 // Peerlist logo
 const Badge = ({ className }: { className?: string }) => {
   return (
@@ -75,6 +76,8 @@ const Cources = () => {
       <div className="flex justify-center mb-8">
         <div className="card bg-base-100 shadow-xl rounded-lg overflow-hidden transition-transform transform hover:scale-105">
           <figure>
+             {/* eslint-disable-next-line */}
+            {/* @ts-ignore */}
             {/* Render the MacbookScrollDemo component */}
             <MacbookScrollDemo />
           </figure>
