@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import { MacbookScroll } from "../components/ui/macbook-scroll";
+import MacbookScroll  from "../components/ui/macbook-scroll";
 import Link from "next/link";
 
 export function MacbookScrollDemo() {
@@ -65,6 +65,7 @@ const Badge = ({ className }: { className?: string }) => {
     </svg>
   );
 };
+// Define the Cources component
 const Cources = () => {
   return (
     <>
@@ -74,7 +75,8 @@ const Cources = () => {
       <div className="flex justify-center mb-8">
         <div className="card bg-base-100 shadow-xl rounded-lg overflow-hidden transition-transform transform hover:scale-105">
           <figure>
-            <MacbookScrollDemo/>
+            {/* Render the MacbookScrollDemo component */}
+            <MacbookScrollDemo />
           </figure>
         </div>
       </div>
