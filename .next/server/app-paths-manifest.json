@@ -1,3 +1,12 @@
 {
-  "/page": "app/page.js"
+  "/_not-found": "app/_not-found.js",
+  "/consulting/page": "app/consulting/page.js",
+  "/cources/page": "app/cources/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/form/page": "app/form/page.js",
+  "/graphic/page": "app/graphic/page.js",
+  "/lastProjects/page": "app/lastProjects/page.js",
+  "/page": "app/page.js",
+  "/review/page": "app/review/page.js",
+  "/software/page": "app/software/page.js"
 }

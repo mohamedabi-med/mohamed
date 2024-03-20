@@ -16,6 +16,13 @@
       "static/css/56ceba1c3ffe76fc.css",
       "static/chunks/app/layout-0d49d6b6b8076ea6.js"
     ],
+    "/consulting/page": [
+      "static/chunks/webpack-2dae17b9f76694cf.js",
+      "static/chunks/fd9d1056-36428d1ee7ba449b.js",
+      "static/chunks/655-fe2b3ae545e8bc16.js",
+      "static/chunks/main-app-f73b87e094bdebcb.js",
+      "static/chunks/app/consulting/page-19763b89b01a545c.js"
+    ],
     "/cources/page": [
       "static/chunks/webpack-2dae17b9f76694cf.js",
       "static/chunks/fd9d1056-36428d1ee7ba449b.js",
@@ -27,13 +34,6 @@
       "static/chunks/788-6ec1302d377100b6.js",
       "static/chunks/692-9a811490e94dd63a.js",
       "static/chunks/app/cources/page-e9b2fda9006eaf41.js"
-    ],
-    "/consulting/page": [
-      "static/chunks/webpack-2dae17b9f76694cf.js",
-      "static/chunks/fd9d1056-36428d1ee7ba449b.js",
-      "static/chunks/655-fe2b3ae545e8bc16.js",
-      "static/chunks/main-app-f73b87e094bdebcb.js",
-      "static/chunks/app/consulting/page-19763b89b01a545c.js"
     ],
     "/form/page": [
       "static/chunks/webpack-2dae17b9f76694cf.js",
