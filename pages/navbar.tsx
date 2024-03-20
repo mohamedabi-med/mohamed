@@ -3,7 +3,7 @@ import ToggleBtn from "../app/components/toogleBtn";
 import Link from 'next/link'
 import LanguageToggle from "../app/components/LanguageToggle";
 import { useEffect, useState } from "react";
-import { useLanguage } from "./LanguageProvider";
+// import { useLanguage } from "./LanguageProvider";
 
 
 export default function Navbar() {
@@ -30,6 +30,8 @@ export default function Navbar() {
                         <li><a href="cources">Education</a></li>
                         <li><a href="software">Service</a></li>
                         <li><a href="consulting">Consulting</a></li>
+                        <li><a href="lastProjects">Last Projects</a></li>
+                        <li><a href="cources">Cources</a></li>
                     </ul>
                 </div>
                 <ToggleBtn />

@@ -1,41 +1,55 @@
-// LanguageProvider.js
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+// <<<<<<< HEAD
+// // LanguageProvider.js
+// =======
+// "use client"
+// >>>>>>> 1ff994652e8d876df4b7251840838cdecfc6de98
+// import React, { createContext, useContext, useState, ReactNode } from 'react';
 
-const defaultLanguageValue = {
-  isEnglish: true,
-  toggleLanguage: () => {},
-};
+// const defaultLanguageValue = {
+//   isEnglish: true,
+//   toggleLanguage: () => {},
+// };
 
-interface LanguageContextType {
-  isEnglish: boolean;
-  toggleLanguage: () => void;
-}
+// interface LanguageContextType {
+//   isEnglish: boolean;
+//   toggleLanguage: () => void;
+// }
 
-const LanguageContext = createContext<LanguageContextType>(defaultLanguageValue);
+// const LanguageContext = createContext<LanguageContextType>(defaultLanguageValue);
 
-export const useLanguage = () => useContext(LanguageContext);
+// export const useLanguage = () => useContext(LanguageContext);
 
-export const LanguageProvider = ({ children }: LanguageProviderProps) => {
-  const [isEnglish, setIsEnglish] = useState(true);
+// <<<<<<< HEAD
+// =======
+// interface LanguageProviderProps {
+//   children: ReactNode;
+// }
 
-  const toggleLanguage = () => {
-    setIsEnglish(!isEnglish);
-  };
+// >>>>>>> 1ff994652e8d876df4b7251840838cdecfc6de98
+// export const LanguageProvider = ({ children }: LanguageProviderProps) => {
+//   const [isEnglish, setIsEnglish] = useState(true);
 
-  const value = {
-    isEnglish,
-    toggleLanguage,
-  };
+//   const toggleLanguage = () => {
+//     setIsEnglish(!isEnglish);
+//   };
 
-  return (
-    <LanguageContext.Provider value={value}>
-      {children}
-    </LanguageContext.Provider>
-  );
-};
+//   const value = {
+//     isEnglish,
+//     toggleLanguage,
+//   };
 
-interface LanguageProviderProps {
-  children: ReactNode;
-}
+//   return (
+//     <LanguageContext.Provider value={value}>
+//       {children}
+//     </LanguageContext.Provider>
+//   );
+// };
+// <<<<<<< HEAD
 
-export default LanguageProvider;
+// interface LanguageProviderProps {
+//   children: ReactNode;
+// }
+
+// export default LanguageProvider;
+// =======
+// >>>>>>> 1ff994652e8d876df4b7251840838cdecfc6de98

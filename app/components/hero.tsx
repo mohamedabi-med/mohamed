@@ -1,5 +1,8 @@
+"use client";
+import { TextGenerateEffect } from "./ui/text-generate-effect";
 import React from 'react';
-
+const words = `The first development and consulting company in Algeria and the educational partner of over 80,000 students in the field of computer science.
+`;
 const Hero = () => {
   const backgroundStyles = {
     backgroundImage: 'url(black4.png)',
@@ -23,7 +26,7 @@ const Hero = () => {
           </div>
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Welcome to WorldWebsolutions</h1>
-            <p className="text-lg md:text-xl lg:text-2xl py-4 md:py-6 lg:py-8">The first development and consulting company in Algeria and the educational partner of over 80,000 students in the field of computer science.</p>
+            <p className="text-lg md:text-xl lg:text-2xl py-4 md:py-6 lg:py-8"><TextGenerateEffect words={words} /></p>
             <button className="btn btn-primary px-8 py-3 text-lg md:text-xl lg:text-2xl">Get Started</button>
           </div>
         </div>
