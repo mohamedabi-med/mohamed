@@ -11,7 +11,10 @@ import {
   IconBrandOnlyfans,
 } from "@tabler/icons-react";
 
-
+firebase.initializeApp({
+  databaseURL: 'https://worldwebsolutions-79b54-default-rtdb.europe-west1.firebasedatabase.app/',
+  // Your other Firebase config here
+});
 
 interface FormData {
   name: string;
