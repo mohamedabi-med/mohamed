@@ -39,7 +39,6 @@ import { getAnalytics } from "firebase/analytics";
 export default function Home() {
   return (
     <>
-    
       <div className="container mx-auto">
         <Hero />
         <Landing />
