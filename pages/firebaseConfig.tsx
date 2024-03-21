@@ -1,7 +1,4 @@
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-
-const firebaseConfig = {
+export const firebaseConfig = {
   apiKey: "AIzaSyDRwJpKnGdBQyQ1Kzf8SHYnAwF9YjLiUPY",
   authDomain: "worldwebsolutions-79b54.firebaseapp.com",
   projectId: "worldwebsolutions-79b54",
@@ -11,4 +8,4 @@ const firebaseConfig = {
   measurementId: "G-XPZX6MVN8P"
 };
 
-export default firebaseConfig;
+

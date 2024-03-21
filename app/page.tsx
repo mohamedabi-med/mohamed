@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 
 import Landing from "./components/landing";
@@ -15,7 +16,7 @@ import Word from "./components/Word";
 import GlobeDemo from "./components/GlobeDemo";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import firebaseConfig from "../firebaseConfig"; // Import the Firebase configuration
+import { firebaseConfig } from "../firebaseConfig";
 
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);
