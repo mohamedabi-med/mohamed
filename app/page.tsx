@@ -1,6 +1,5 @@
 "use client"
 import Image from "next/image";
-
 import Landing from "./components/landing";
 import Hero from "./components/hero";
 import Blob from "./components/blob";
@@ -19,7 +18,7 @@ import { getAnalytics } from "firebase/analytics";
 
 
 
-export const firebaseConfig = {
+ const firebaseConfig = {
   apiKey: "AIzaSyDRwJpKnGdBQyQ1Kzf8SHYnAwF9YjLiUPY",
   authDomain: "worldwebsolutions-79b54.firebaseapp.com",
   projectId: "worldwebsolutions-79b54",
