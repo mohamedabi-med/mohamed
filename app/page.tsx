@@ -13,6 +13,15 @@ import FloatingPhone from "./components/floatingPhone";
 import Cards from "./components/cards";
 import Word from "./components/Word";
 import GlobeDemo from "./components/GlobeDemo";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+import firebaseConfig from "../firebaseConfig"; // Import the Firebase configuration
+
+// Initialize Firebase
+const firebaseApp = initializeApp(firebaseConfig);
+
+// (Optional) Initialize Firebase Analytics
+const analytics = getAnalytics(firebaseApp);
 
 export default function Home() {
   return (
