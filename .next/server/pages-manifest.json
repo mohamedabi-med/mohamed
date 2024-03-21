@@ -1,10 +1,10 @@
 {
-  "/_error": "pages/_error.js",
   "/_app": "pages/_app.js",
   "/firebaseConfig": "pages/firebaseConfig.js",
-  "/i18n": "pages/i18n.js",
   "/footer": "pages/footer.js",
+  "/i18n": "pages/i18n.js",
   "/navbar": "pages/navbar.js",
+  "/_error": "pages/_error.js",
   "/LanguageProvider": "pages/LanguageProvider.js",
   "/_document": "pages/_document.js"
 }
