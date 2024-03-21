@@ -16,7 +16,10 @@ import GlobeDemo from "./components/GlobeDemo";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
-
+// firebase.initializeApp({
+//   databaseURL: 'https://worldwebsolutions-79b54-default-rtdb.europe-west1.firebasedatabase.app/',
+//   // Your other Firebase config here
+// });
 
  const firebaseConfig = {
   apiKey: "AIzaSyDRwJpKnGdBQyQ1Kzf8SHYnAwF9YjLiUPY",
