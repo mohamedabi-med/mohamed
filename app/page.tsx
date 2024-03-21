@@ -16,7 +16,7 @@ import Word from "./components/Word";
 import GlobeDemo from "./components/GlobeDemo";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import { firebaseConfig } from "../firebaseConfig";
+import  firebaseConfig  from "../firebaseConfig";
 
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);
