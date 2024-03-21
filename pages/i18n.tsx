@@ -1,8 +1,14 @@
-// i18n.js
+// pages/i18n.js
+
+// Import React from 'react' if you're using JSX syntax
+import React from 'react';
+
+// Import i18n and necessary functions
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
- i18n
+// Initialize i18n
+i18n
   .use(initReactI18next)
   .init({
     resources: {
@@ -28,4 +34,9 @@ import { initReactI18next } from 'react-i18next';
     },
   });
 
+// Since this page is for initializing i18n, you can just export an empty React component
+const I18nPage = () => {
+  return null;
+};
 
+export default I18nPage;
