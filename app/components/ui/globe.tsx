@@ -227,7 +227,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
     <>
       <threeGlobe ref={globeRef} />
     </>
-  );
+  )
 }
 
 export function WebGLRendererConfig() {

@@ -395,35 +395,38 @@ const GlobeDemo=() =>{
   ];
 
   return (
-    <div className="flex flex-row items-center justify-center mt-5 py-20 h-screen md:h-autorelative w-full bg-base-200 text-base-content">
-      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4 bg-base-200 text-base-content">
-        <motion.div
-          initial={{
-            opacity: 0,
-            y: 20,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          transition={{
-            duration: 1,
-          }}
-          className="div"
-        >
-          <h2 className="text-center text-xl md:text-4xl font-bold bg-base-200 text-base-content">
-            Get Ready to Conquer the WorldWeb 
-          </h2>
-          <p className="text-center text-base md:text-lg font-normal bg-base-200 text-base-content max-w-md mt-2 mx-auto">
-            Draw No Limit with WorldWeb Solutions:)
-          </p>
-        </motion.div>
-        <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent bg-base-200 text-base-content z-40" />
-        <div className="absolute w-full -bottom-20 h-72 md:h-full z-10">
-          <World data={sampleArcs} globeConfig={globeConfig} />;
-        </div>
-      </div>
+   <div className="flex flex-col items-center justify-center py-5 md:py-20  bg-base-200 text-base-content">
+  <div className="max-w-screen-md mx-auto w-full px-4 bg-base-200 text-base-content">
+    <motion.div
+      initial={{
+        opacity: 0,
+        y: 20,
+      }}
+      animate={{
+        opacity: 1,
+        y: 0,
+      }}
+      transition={{
+        duration: 1,
+      }}
+      className="div"
+    >
+      <h2 className="text-center text-2xl md:text-4xl font-bold bg-base-200 text-base-content">
+        Get Ready to Conquer the WorldWeb 
+      </h2>
+      <p className="text-center text-base md:text-lg font-normal bg-base-200 text-base-content max-w-md mt-2 mx-auto">
+        Draw No Limit with WorldWeb Solutions :)
+      </p>
+    </motion.div>
+    <div className="absolute w-full bottom-0 inset-x-0 h-1/5 md:h-full bg-gradient-to-b from-transparent bg-base-200 text-base-content z-40" />
+    <div className="relative w-full -bottom-1/5 md:-bottom-1/2 h-4/5 md:h-4/5 z-10">
+      {/* Adjust the dimensions of the World component as needed */}
+      <World data={sampleArcs} globeConfig={globeConfig} />
     </div>
+  </div>
+</div>
+
+
   );
 }
 
