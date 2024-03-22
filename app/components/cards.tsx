@@ -123,10 +123,10 @@ const Courses = () => {
              <figure><img src="amazon.png" alt="Album"/></figure>
           </div>
           <div className="text-center lg:text-left">
-            <h1 className="text-4xl text-white md:text-5xl lg:text-6xl font-bold mb-4">Texas Houston Amazon Office  was Our Client in 2023!</h1>
-            <div className="text-lg md:text-xl lg:text-2xl py-4 md:py-6 lg:py-8"><TextGenerateEffect words={words} /></div>
+            <h1 className="text-4xl  md:text-5xl lg:text-6xl  bg-base-100 text-base-content font-bold mb-4">Texas Houston Amazon Office  was Our Client in 2023!</h1>
+            <div className="text-lg md:text-xl lg:text-2xl py-4 md:py-6 bg-base-100 text-base-content lg:py-8"><TextGenerateEffect words={words} /></div>
             <Link href="lastProjects">
-              <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">Last Projects</button>
+              <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">Hire Us</button>
             </Link>
           </div>
         </div>

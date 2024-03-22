@@ -28,6 +28,7 @@ export default function Navbar() {
                         <li><Link href="lastProjects">Last Projects</Link></li>
                         <li><Link href="cources">Courses</Link></li>
                         <li><Link href="review">Review Us</Link></li>
+                        <li><Link href="aboutus">about Us</Link></li>
                     </ul>
                 </div>
                 <ToggleBtn />
