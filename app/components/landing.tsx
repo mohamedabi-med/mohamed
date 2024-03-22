@@ -8,9 +8,8 @@ const Landing = () => {
           <div className="bg-primary text-primary-content text-9xl font-black grid place-content-center">WorldWeb Solutions</div>
         </div>
         <div className="diff-item-2">
-          <div className="bg-base-200 text-9xl font-black grid place-content-center">WorldWeb  <img className="w-70 h-50 mx-auto" src="logo.png" alt="worldwebSolutions" /></div>
+          <div className="bg-base-200 text-9xl font-black grid place-content-center">WorldWeb Solutions <img className="w-70 h-50 mx-auto" src="logo.png" alt="worldwebSolutions" /></div>
         </div>
-        
         <div className="diff-resizer"></div>
       </div>
     </div>

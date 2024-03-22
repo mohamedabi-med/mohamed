@@ -74,7 +74,7 @@ const Cources = () => {
         Computer Science Courses
       </h1>
       <div className="flex justify-center mb-8">
-        <div className="card bg-base-100 shadow-xl rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+        <div className="card bg-base-100 shadow-xl relative rounded-lg overflow-hidden transition-transform transform hover:scale-105">
           <figure>
              {/* eslint-disable-next-line */}
             {/* @ts-ignore */}
