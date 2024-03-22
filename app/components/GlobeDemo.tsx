@@ -418,7 +418,7 @@ const GlobeDemo=() =>{
         Draw No Limit with WorldWeb Solutions :)
       </p>
     </motion.div>
-    <div className="absolute w-full bottom-0 inset-x-0 h-1/5 md:h-full bg-gradient-to-b from-transparent bg-base-200 text-base-content z-40" />
+    <div className=" w-full bottom-0 inset-x-0 h-1/5  bg-gradient-to-b from-transparent bg-base-200 text-base-content z-40" />
     <div className="relative w-full -bottom-1/5 md:-bottom-1/2 h-4/5 md:h-4/5 z-10">
       {/* Adjust the dimensions of the World component as needed */}
       <World data={sampleArcs} globeConfig={globeConfig} />
