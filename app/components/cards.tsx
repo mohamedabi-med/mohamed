@@ -3,7 +3,7 @@ import React from 'react';
 import './anim.css';
 import Link from "next/link";
 import  TextGenerateEffect  from "./ui/text-generate-effect";
-const words = `From a small WordPress task emerged a wealth of experience, shaping my skills and passion for web development.
+const words = `From a small WordPress task emerged a wealth of experience, shaping our skills and passion for web development .
 `;
 const Courses = () => {
   return (

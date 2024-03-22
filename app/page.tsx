@@ -43,8 +43,8 @@ export default function Home() {
         <Hero />
         <Landing />
         <Phone />
-        <GlobeDemo/>
         <Word/>
+        <GlobeDemo/>
         <Cards />
         <Learnen />
         <Description />
