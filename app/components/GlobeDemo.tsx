@@ -395,8 +395,8 @@ const GlobeDemo=() =>{
   ];
 
   return (
-    <div className="flex flex-row items-center justify-center py-20 h-screen md:h-auto dark:bg-black bg-white relative w-full">
-      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
+    <div className="flex flex-row items-center justify-center mt-5 py-20 h-screen md:h-autorelative w-full bg-base-200 text-base-content">
+      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4 bg-base-200 text-base-content">
         <motion.div
           initial={{
             opacity: 0,
@@ -411,14 +411,14 @@ const GlobeDemo=() =>{
           }}
           className="div"
         >
-          <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
+          <h2 className="text-center text-xl md:text-4xl font-bold bg-base-200 text-base-content">
             Get Ready to Conquer the WorldWeb 
           </h2>
-          <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
+          <p className="text-center text-base md:text-lg font-normal bg-base-200 text-base-content max-w-md mt-2 mx-auto">
             Draw No Limit with WorldWeb Solutions:)
           </p>
         </motion.div>
-        <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40" />
+        <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent bg-base-200 text-base-content z-40" />
         <div className="absolute w-full -bottom-20 h-72 md:h-full z-10">
           <World data={sampleArcs} globeConfig={globeConfig} />;
         </div>

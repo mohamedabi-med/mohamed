@@ -5,7 +5,7 @@ const Cources = () => {
     <>
        <h1 className="text-5xl font-black text-center  position relative">ABConsulting</h1>
         <div className="flex justify-center mb-8">
-          <div className="card bg-base-100 shadow-xl rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+          <div className="card bg-base-200 text-base-content shadow-xl rounded-lg overflow-hidden transition-transform transform hover:scale-105">
             <figure>
               <img src="abc.png" alt="Computer Science Courses" className="w-full h-64 object-cover" />
             </figure>

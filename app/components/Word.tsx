@@ -8,19 +8,19 @@ const Word = () =>{
   return (
     <>  
     
-    <h1 className=" text-primary-content  rounded-lg text-5xl transform-y-[10%] font-black grid place-content-center">Meet Our Team Members</h1>
-           <CardContainer className="inter-var">
-      <CardBody className="bg-gray-50 relative group/card text-center dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+    <h1 className="text-center text-xl md:text-4xl mt-5 font-bold bg-base-200 text-base-content">Meet Our Team Members</h1>
+           <CardContainer className="inter-var bg-base-200 text-base-content">
+      <CardBody className=" relative  bg-base-200 text-base-content group/card text-center dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1]  w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
           translateZ="50"
-          className="text-xl font-bold text-neutral-600 dark:text-white"
+          className="text-xl font-bold bg-base-200 text-base-content"
         >
           Mohamed Abi
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+          className="bg-base-200 text-base-content"
         >
           CEO AND FOUNDER
         </CardItem>
@@ -39,14 +39,14 @@ const Word = () =>{
             as={Link}
             href="form"
             target="__blank"
-            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+            className="px-4 py-2 rounded-xl text-xs bg-base-200 text-base-content"
           >
             Join Us →
           </CardItem>
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+            className="px-4 py-2 rounded-xl bg-base-200 text-base-content text-xs font-bold"
           >
             <Link href="form">Be A member Of Our Team</Link>
           </CardItem>

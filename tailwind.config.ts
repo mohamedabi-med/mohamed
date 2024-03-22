@@ -89,6 +89,7 @@ const config: Config = {
       "garden",
       "forest",
       "aqua",
+      "light",
       "lofi",
       "pastel",
       "fantasy",

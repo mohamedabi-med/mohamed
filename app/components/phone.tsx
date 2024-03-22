@@ -12,7 +12,7 @@ const backgroundStyles = {
 const Phone = () => {
   return (
     <motion.div // Wrap the entire component with motion.div
-      className="flex flex-col lg:flex-row justify-around relative items-center "
+      className="flex flex-col lg:flex-row justify-around relative items-center bg-base-200 text-base-content"
       initial={{ opacity: 0, y: -50 }} // Initial animation properties
       animate={{ opacity: 1, y: 0 }} // Animation properties when component mounts
       transition={{ duration: 0.5 }} // Animation duration
@@ -23,8 +23,8 @@ const Phone = () => {
         </video>
       </div>
       <div className="w-full lg:w-3/5 text-center z-50 mb-8 lg:mb-0">
-        <h1 className="text-4xl font-black mb-4">What is World Web Solutions?</h1>
-        <p className="text-lg text-white-700 leading-relaxed mb-8 lg:ml-5">World Web Solutions is your humble endeavor in the real world, where we aim to teach, offer advice, and create content related to programming and technology, with a special focus on web development. It also represents a small company that is dedicated to providing top-notch website development services. Our goal is to collaborate with clients not only in the USA and Algeria but also from around the globe.</p>
+        <h1 className="text-5xl text-white font-bold  mb-4">What is World Web Solutions?</h1>
+        <p className="text-lg text-white leading-relaxed mb-8 lg:ml-5">World Web Solutions is your humble endeavor in the real world, where we aim to teach, offer advice, and create content related to programming and technology, with a special focus on web development. It also represents a small company that is dedicated to providing top-notch website development services. Our goal is to collaborate with clients not only in the USA and Algeria but also from around the globe.</p>
       </div>
       <motion.div 
         initial={{
@@ -66,11 +66,11 @@ const Phone = () => {
           >
             <div className="artboard worldweb-phone phone-1 relative">
               <div className="background-image" style={backgroundStyles}>
-                <img src="logo.png" alt="Website Logo" className="phone-img" />
+                <img src="without.png" alt="Website Logo" className="phone-img" />
                 <div className='bg-primary opacity-70'>
-                  <h2 className="text-xl font-bold mt-5 text-center">Welcome to our Website</h2>
+                  <h2 className="text-5xl text-white font-bold mt-5 text-center">Welcome to our Website</h2>
                   <p className="text-base text-center">If you are interested in our services, we invite you to check our latest work.</p>
-                  <p className="text-sm text-white-600 text-center">Your trusted partner during your journey in computer science.</p>
+                  <p className="text-sm text-white text-center">Your trusted partner during your journey in computer science.</p>
                 </div>
               </div>
             </div>

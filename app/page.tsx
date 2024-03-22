@@ -39,7 +39,7 @@ import { getAnalytics } from "firebase/analytics";
 export default function Home() {
   return (
     <>
-      <div className="container mx-auto">
+      <div className="container mx-auto bg-base-200 text-base-content">
         <Hero />
         <Landing />
         <Phone />

@@ -3,8 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 
 export default function ToggleBtn() {
-  const [activeTheme, setActiveTheme] = useState<string>("black");
-  // const activeTheme = theme ?? 'black';
+  const [activeTheme, setActiveTheme] = useState<string>("lofi");
 
   const toggleTheme = () => {
     const newTheme = activeTheme === 'black' ? 'lofi' : 'black';

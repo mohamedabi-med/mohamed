@@ -59,10 +59,10 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="m-10 flex flex-col-reverse md:flex-row mb-15 pb-10">
-      <div className="w-full md:w-1/2 pr-0 md:pr-4 relative">
-        <h1 className="text-3xl font-bold text-white-900 mb-4">Contact Us Now!</h1>
-        <h2 className="text-lg font-semibold text-gray-400 mb-8">What are you waiting for? No matter what you need, we will help you with it. All you need to do is reach out to us!</h2>
+    <div className="m-10 flex flex-col-reverse md:flex-row mb-15 pb-10 bg-base-200 text-base-content">
+      <div className="w-full md:w-1/2 pr-0 md:pr-4 relative bg-base-200 text-base-content">
+        <h1 className="text-3xl font-bold text-white-900 mb-4 bg-base-200 text-base-content">Contact Us Now!</h1>
+        <h2 className="text-lg font-semibold text-gray-400 mb-8 bg-base-200 ">What are you waiting for? No matter what you need, we will help you with it. All you need to do is reach out to us!</h2>
 
         <LabelInputContainer>
           <Label htmlFor="name">Name</Label>

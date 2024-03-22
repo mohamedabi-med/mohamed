@@ -1,12 +1,8 @@
 {
-  "/_not-found": "app/_not-found.js",
-  "/form/page": "app/form/page.js",
-  "/consulting/page": "app/consulting/page.js",
-  "/graphic/page": "app/graphic/page.js",
+  "/not-found": "app/not-found.js",
   "/lastProjects/page": "app/lastProjects/page.js",
-  "/cources/page": "app/cources/page.js",
   "/review/page": "app/review/page.js",
+  "/cources/page": "app/cources/page.js",
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/software/page": "app/software/page.js"
+  "/consulting/page": "app/consulting/page.js"
 }

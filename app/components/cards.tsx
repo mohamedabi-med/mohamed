@@ -94,7 +94,7 @@ const Courses = () => {
             <div className="ag-courses-item_bg"></div>
 
             <div className="ag-courses-item_title">
-              MAROCS
+              MAROC
             </div>
 
             <div className="ag-courses-item_date-box">
